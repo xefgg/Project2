@@ -1,0 +1,100 @@
+.upload{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 3%;
+    border-radius: 20px;
+    height: 10%;
+    text-align: center;
+}
+
+.upload p{
+    padding: 20px;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: left;
+    box-shadow: 3px 6px 15px 5px rgba(0,0,0,0.2);
+}
+
+#hint{
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+    padding: 8%;
+    box-shadow: none;
+}
+
+.pictureInfo .warning{
+    color: red;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.upload .picture img{
+    height: 50vh;
+    padding-top: 50px;
+}
+
+.upload input[type=file]{
+    margin: 30px;
+}
+
+/*#upPicture{
+    height: 15%;
+}*/
+
+.pictureInfo{
+    margin-left: 3%;
+    margin-top: 1.5%;
+    border-radius: 20px;
+}
+
+.pictureInfo p{
+    padding: 20px;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.inputBorder{
+    margin-left: 1%;
+    margin-right: 20px;
+    box-shadow: 6px 6px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 95%;
+    height:30px;
+}
+
+.picDescription{
+    box-shadow: 5px 15px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 95%;
+    line-height: 20px;
+    font-size: large;
+    margin-left: 20px;
+    height: 100px;
+}
+
+select{
+    box-shadow: 5px 15px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 20%;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+option{
+    font-weight: 600;
+}
+
+
+.uploadBtn{
+    margin:70px;
+    border-style: none;
+    border-radius: 5px;
+    width: 8%;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    background-color: limegreen;
+    box-shadow: 6px 6px 15px 5px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,110 @@
+.navSearch{
+    background-color: burlywood;
+}
+
+.filter{
+    margin: 50px;
+    border-radius: 20px;
+    background-color: rgba(243,209,164,0.75);
+}
+
+.filter p{
+    padding: 20px;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.filby{
+    margin-left: 20px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: large;
+    margin-right: 20px;
+}
+
+.filbyTitle{
+    box-shadow: 0px 6px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 95%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.filbyDescription{
+    box-shadow: 5px 15px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 95%;
+    height: 100px;
+    line-height: 20px;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.filter button{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: none;
+    border-radius: 5px;
+    width: 8%;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    background-color: limegreen;
+    box-shadow: 6px 6px 15px 5px rgba(0,0,0,0.2);
+}
+
+.result{
+    margin: 50px;
+}
+
+.reslutTitle{
+    box-shadow: 0px 6px 15px 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.picresult{
+    margin-top:50px;
+    height: 380px;
+}
+
+.picresult img{
+    width: 80%;
+    float: left;
+    padding: 1%;
+    height: 35vh;
+}
+
+img[src='']{
+    opacity:0;
+}
+
+.title{
+    position: relative;
+    padding-top: 4%;
+    left: 3.5%;
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.description{
+    display: inline-block;
+    position: relative;
+    left: 3.5%;
+    padding-top: 2%;
+    width: 60%;
+    line-height: 300%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+
+.M-box{
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}

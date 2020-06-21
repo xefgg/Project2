@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Register.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="JS/Register.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="whole">
+    <img src="../img/login%20img.jpg ">
+    <div class="register">
+        <form id="register">
+        <p class="registerTitle">REGISTER</p>
+        <p class="requiredTitle">Username</p>
+        <input type="text" name="username" required>
+        <p class="requiredTitle">E-mail</p>
+        <input type="text" name="email" required>
+        <p class="requiredTitle">Password</p>
+        <input type="password" name="password" required>
+        <p class="requiredTitle">Confirm Password</p>
+        <input type="password" name="comfirmpassword" required>
+        <p id="hint" class="requiredTitle" style="color: red;font-size: small"></p>
+        <button type="button" onclick="check_validity()"><a>REGISTER</a></button>
+        <p class="reminder"><a>Already have an account? <a href="Log%20in.html">Log in now</a></a></p>
+        </form>
+    </div>
+
+</div>
+<div class="footer">
+    <p>Copyright © 2020 Software School Web Fundamental. All Rights Reserved. Internet Content Provider：Fudan 18307130274</p>
+</div>
+</body>
+</html>

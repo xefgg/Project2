@@ -1,0 +1,121 @@
+.nav{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    background-color: black;
+}
+
+.nav i{
+    margin-left: 20%;
+    margin-top: 5px;
+    color: white;
+}
+
+.nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.nav li{
+    float: left;
+    width: 150px;
+}
+
+.nav li a{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0px;
+}
+
+.nav li a:hover{
+    background-color: gray;
+    color: white;
+    text-decoration: underline;
+}
+
+.dropdown{
+    margin-top: -60px;
+    width:150px;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    float: right;
+    z-index: 9999;
+}
+
+.dropdown button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+}
+
+/*下拉的内容，一开始为隐藏的*/
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/*下拉菜单内的字体*/
+.dropdown-content a{
+    height: 20px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: small;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content span{
+    margin-left: 10px;
+}
+
+/*鼠标移动显示下拉菜单*/
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*下拉菜单中内容背景颜色的改变*/
+.dropdown-content a:hover{
+    background-color: burlywood;
+    text-decoration: underline;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 120px;
+    font-size: small;
+}
+
+.img-container{
+    width: 36%;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+}
+
+.img-container img{
+    margin-left: 5%;
+    width: 90%;
+    height: 400px;
+}

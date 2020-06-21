@@ -1,0 +1,153 @@
+.navBrowser{
+    background-color: burlywood;
+}
+
+.searchbyTitle{
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+    height:200px;
+}
+
+.searchbyTitle p{
+    padding: 20px 20px 15px;
+    font-weight: 600;
+    font-size: larger;
+    box-shadow: 6px 6px 15px 5px rgba(0,0,0,0.2);
+}
+
+.searchbyTitle input{
+    box-shadow: 0px 6px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 75%;
+    height: 18%;
+    margin-left: 2.5%;
+}
+
+.searchbyTitle button{
+    margin-left: 5%;
+    border-style: none;
+    border-radius: 50%;
+    width: 10%;
+    height:18%;
+}
+
+.quickBrowse{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.quickBrowse table{
+    text-align: left;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.quickBrowse table tr{
+    box-shadow: 0px 6px 15px 4px rgba(0,0,0,0.2);
+    height: 20px;
+}
+
+.quickBrowse table th{
+    width: 500px;
+    padding: 20px;
+}
+
+.countrytitle{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.countryname{
+    font-size: medium;
+    line-height: 15px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+
+.leftside{
+    float: left;
+    width: 25%;
+}
+
+.search{
+    margin-top: 6.5%;
+}
+
+.main{
+    border-color: silver;
+    border-radius: 10px;
+    margin-left: 26%;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.filter{
+    height: 200px;
+}
+
+.filter p{
+    padding: 18px 20px 15px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.filter select{
+    box-shadow: 0px 6px 15px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 20%;
+    height: 22%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.filter option{
+    font-weight: 600;
+}
+
+.filter button{
+    margin-left: 3%;
+    border-style: none;
+    border-radius: 5px;
+    width: 10%;
+    height:20%;
+    color: white;
+    font-size: large;
+    background-color: limegreen;
+    box-shadow: 6px 6px 15px 5px rgba(0,0,0,0.2);
+}
+
+.result table tr{
+    width: 100%;
+}
+
+.result table tr th{
+    width: 25%;
+    margin-right: 5%;
+}
+
+.img-container{
+    width: 80%;
+    height: 28vh;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+img[src='']{
+    opacity:0;
+}
+
+.M-box{
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
